@@ -1,0 +1,89 @@
+.header-container {
+  position: relative;
+  .v-application .pb-md-12 {
+    padding-bottom: 0 !important;
+  }
+  min-height: 101vh;
+  background: url('./../imgs/why_salezagee.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  // animation: backSizeAnimate 40s infinite linear;
+  margin: -2px 0 !important;
+  &__info {
+    @media only screen and (max-width: 1024px) {
+      font-size: $md-font;
+      text-align: center;
+    }
+  }
+  &__main-header {
+    line-height: 1.4;
+    z-index: 2;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh;
+
+    &--title {
+      font-size: $xl-font !important;
+      color: $color-white;
+      font-family: $font-bold;
+      @media only screen and (max-width: 901px) {
+        font-size: $md-font;
+        text-align: center;
+      }
+      @media only screen and (max-width: 701px) {
+        font-size: $font-32 !important;
+        text-align: center;
+      }
+    }
+    &--paragraph {
+      font-size: $font-32;
+      color: $color-white;
+      padding: 20px 0;
+      font-family: $font-regular;
+      line-height: 2;
+      & * {
+        color: $color-white !important;
+      }
+      @media only screen and (max-width: 991px) {
+        font-size: $font-16;
+      }
+      @media (min-width: 991px) {
+        font-size: $font-18 !important;
+        // width: 70%;
+      }
+      @media only screen and (max-width: 701px) {
+        font-size: $font-14 !important;
+        text-align: center;
+      }
+    }
+  }
+  &__image {
+    animation: rotate infinite 12s linear !important;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes backSizeAnimate {
+  to {
+    background-size: 200% 100%;
+  }
+
+  from {
+    background-size: 400% 200%;
+  }
+}
+.d-none-md {
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "validation": {
+    "required": "حقل %{attribute} يجب ادخاله",
+    "is_required": " هذا الحقل مطلوب",
+    "maxLength": "حقل %{attribute} لا يجب أن يزيد عن %{max} حرف",
+    "minLength": "حقل %{attribute} لا يجب أن يقل عن %{min} احرف",
+    "valid": "يجب أن يكون صحيح",
+    "number": " يجب أن يكون أرقام",
+    "set_as_default_address": "تثبيت كعنوان رئيسى",
+    "add_address": "أضف عنون جديد",
+    "signout": "تسجيل الخروج",
+    "password_min": "يجب أن يكون %{min} أرقام على الأكثر",
+    "numeric": "يجب أن يكون رقم",
+    "email": "يجب أن يكون البريد الإكتروني صحيح",
+    "maxWords": "هذا الحقل يجب ان يكون اقل من %{maxWords}كلمه",
+    "validPhoneNumber": "تأكد من الرقم المدخل"
+  },
+  "navbar": {
+    "contact_us": "اتصل بنا",
+    "features": "المميزات",
+    "need_more": "أحتاج المزيد",
+    "why_salezagee": "لماذا سالزجي"
+  },
+  "fields": {},
+  "button": {
+    "start_free_trial": "ابدأ الإصدار التجريبي المجاني"
+  },
+  "data": {
+    "header_intro": "إدارة وقتك ، والحصول على المزيد من العملاء المحتملين"
+  },
+  "heading": {},
+  "body": {}
+}
